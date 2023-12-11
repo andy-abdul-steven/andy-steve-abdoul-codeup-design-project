@@ -9,13 +9,23 @@ nav {
     background-color: #F0F0F0;
 }
 .button-space {
-    display: flex;
-    margin-left: 5px;
-    margin-right: 5px;
+    gap: 20px;
 }
 header {
     background-color: #F0F0F0;
+    padding-top: 80px;
+    padding-bottom: 20px;
     font-family: 'Anton', sans-serif;
+}
+h1 {
+    padding-bottom: 30px;
+}
+h2 {
+    padding-bottom: 30px;
+}
+h3 {
+    font-family: 'Abel', sans-serif;
+    text-align: center;
 }
 .grid-container {
     display: grid;
@@ -35,10 +45,6 @@ header {
     display: block;
 }
 
-h3 {
-    font-family: 'Abel', sans-serif;
-    text-align: center;
-}
 .row {
     display: flex;
 }
