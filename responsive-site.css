@@ -5,9 +5,22 @@ background-color: #F0F0F0;
 nav {
     background-color: #F0F0F0;
 }
-
+.button-space {
+    margin-left: 5px;
+    padding-right: 5px;
+}
 header {
     background-color: #F0F0F0;
-    /*font-family: 'Abel', sans-serif;*/
     font-family: 'Anton', sans-serif;
+}
+h3 {
+    font-family: 'Abel', sans-serif;
+    text-align: center;
+}
+.column {
+    float: left;
+    width: 70%
+}
+.row {
+    display: flex;
 }
