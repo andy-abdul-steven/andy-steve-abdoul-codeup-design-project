@@ -389,6 +389,8 @@ hr {
 
     hr {
         width: calc(100vw - 4em);
+        color: black;
+        text-align: center;
     }
 
     .pillar {
@@ -480,6 +482,7 @@ hr {
     hr {
         width: calc(100vw - 30%);
         margin-left: 11em;
+        color: black;
     }
 
     #med-grid {
