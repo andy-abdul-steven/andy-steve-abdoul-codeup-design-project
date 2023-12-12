@@ -87,7 +87,7 @@ h5 {
     height: 75px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    background-color: white;
+    background-color: #F0F0F0;
     grid-template-areas: "boxlogo boxlogo boxlogo";
 }
 
