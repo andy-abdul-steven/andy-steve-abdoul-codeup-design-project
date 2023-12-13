@@ -1,182 +1,195 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
-          integrity="sha384-4LISF5TTJX/fLmGSxO53rV4miRxdg84mZsxmO8Rx5jGtp/LbrixFETvWa5a6sESd" crossorigin="anonymous">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-          integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Abel&family=Anton&display=swap" rel="stylesheet">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Codeup Design</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css?family=Abel|Anton" rel="stylesheet">
     <link rel="stylesheet" href="responsive-site.css">
-    <title>Code Up Design</title>
 </head>
 <body>
 
-<div id="large-breakpoint-container">
-    <main id="main-content">
+    <div class="container">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary pt-lg-2">
+        <div class="container-fluid">
 
-        <header id="header-container">
-            <div id="logo-container">
-                <span id="medhead" class="abel">codeup design</span>
-                <img id="logo" src="assets/logo.png">
-
-                <nav class="nav-style" id="nav-view">
-                    <ul id="nav-view-list">
-                        <li>
-                            <a href="#" class="abel">SERVICES</a>
-                        </li>
-
-                        <li>
-                            <a href="#" class="abel">WORK</a>
-                        </li>
-
-                        <li>
-                            <a href="#" class="abel">BLOG</a>
-                        </li>
-
-                        <li>
-                            <a href="#" class="abel">CONTACT</a>
-                        </li>
-                    </ul>
-                </nav>
+            <a class="navbar-brand" href="#">
+                <img src="assets/logo.png" alt="Logo" height="30" class="d-inline-block align-text-top">
+                codeup design
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">SERVICES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">WORK</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">BLOG</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">CONTACT</a>
+                    </li>
+                </ul>
             </div>
-        </header>
+        </div>
+    </nav>
 
-        <span id="company-name">codeup design</span>
+    <header class="container-fluid">
 
-        <nav class="nav-style" id="native-nav">
-            <ul id="native-nav-list">
-                <li>
-                    <a href="#" class="abel">SERVICES</a>
-                </li>
+        <h3 class="text-uppercase text-center">Visual Design & Web Development</h3>
+        <h5 class="text-uppercase text-center mt-4 mb-4">From Park City, Utah</h5>
 
-                <li>
-                    <a href="#" class="abel">WORK</a>
-                </li>
+        <div class="circles d-flex justify-content-center">
 
-                <li>
-                    <a href="#" class="abel">BLOG</a>
-                </li>
+            <div class="d-flex justify-content-center flex-wrap">
+                <div class="circle red text-uppercase">
+                    <h6>Design</h6>
+                </div>
+                <div class="circle yellow text-uppercase">
+                    <h6>Develop</h6>
+                </div>
+                <div class="w-100 d-md-none"></div><!-- used to force line break in flex items for mobile -->
+                <div class="circle green text-uppercase">
+                    <h6>Support</h6>
+                </div>
+                <div class="circle blue text-uppercase">
+                    <h6>Host</h6>
+                </div>
+            </div>
 
-                <li>
-                    <a href="#" class="abel">CONTACT</a>
-                </li>
-            </ul>
-        </nav>
+        </div>
 
-        <section id="company-about-container">
+        <hr class="d-none d-md-block">
+    </header>
 
-            <h2 id="company-page-title">
-                VISUAL DESIGN & WEB DEVELOPMENT
-            </h2>
+    <main class="container-fluid">
+        <div class="row">
+            <div class="col-12 col-lg-8">
+                <p class="text-uppercase sub-title">Selected Work</p>
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <div class="custom-card">
+                            <div class="images images-ipad">
+                                <img class="w-100" src="assets/images/apple-ipad.jpg" alt="macbook">
+                            </div>
 
-            <h4 id="company-location-header">
-                FROM PARK CITY, UTAH
-            </h4>
-
-            <div id="pillar-container">
-                <div id="pillar-div-list">
-                    <div class="pillar red">
-                        <span class="pillar-text">DESIGN</span>
+                            <div class="custom-card-bottom mb-4 mb-md-0 d-flex">
+                                <div class="mr-auto text-uppercase">Featured Project</div>
+                                <div class="custom-card-small-circles d-flex align-items-center">
+                                    <div class="small-circles text-center red"><span>D</span></div>
+                                    <div class="small-circles text-center yellow"><span>D</span></div>
+                                    <div class="small-circles text-center green"><span>S</span></div>
+                                    <div class="small-circles text-center blue"><span>H</span></div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="pillar orange">
-                        <span class="pillar-text">DEVELOP</span>
+                    <div class="col-12 col-md-6">
+                        <div class="custom-card">
+                            <div class="images images-macs">
+                                <img class="w-100" src="assets/images/macbook.jpg" alt="macbook">
+                            </div>
+
+                            <div class="custom-card-bottom mb-4 mb-md-0 d-flex">
+                                <div class="mr-auto text-uppercase">Featured Project</div>
+                                <div class="custom-card-small-circles d-flex align-items-center">
+                                    <div class="small-circles text-center red"><span>D</span></div>
+                                    <div class="small-circles text-center yellow"><span>D</span></div>
+                                    <div class="small-circles text-center green"><span>S</span></div>
+                                    <div class="small-circles text-center blue"><span>H</span></div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="pillar green">
-                        <span class="pillar-text">SUPPORT</span>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <div class="custom-card">
+                            <div class="images images-man">
+                                <img class="w-100" src="assets/images/man.jpg" alt="man">
+                            </div>
+
+                            <div class="custom-card-bottom mb-4 mb-md-0 d-flex">
+                                <div class="mr-auto text-uppercase">Featured Project</div>
+                                <div class="custom-card-small-circles d-flex align-items-center">
+                                    <div class="small-circles text-center red"><span>D</span></div>
+                                    <div class="small-circles text-center yellow"><span>D</span></div>
+                                    <div class="small-circles text-center green"><span>S</span></div>
+                                    <div class="small-circles text-center blue"><span>H</span></div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="pillar blue">
-                        <span class="pillar-text">HOST</span>
+                    <div class="col-12 col-md-6">
+                        <div class="custom-card">
+                            <div class="images images-security">
+                                <img class="w-100" src="assets/images/security.jpg" alt="cyber security">
+                            </div>
+                            <div class="custom-card-bottom mb-4 mb-md-0 d-flex">
+                                <div class="mr-auto text-uppercase">Featured Project</div>
+                                <div class="custom-card-small-circles d-flex align-items-center">
+                                    <div class="small-circles text-center red"><span>D</span></div>
+                                    <div class="small-circles text-center yellow"><span>D</span></div>
+                                    <div class="small-circles text-center green"><span>S</span></div>
+                                    <div class="small-circles text-center blue"><span>H</span></div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <hr>
-        </section>
-
-        <div id="med-grid">
-
-            <p id="selected-featured-title" class="abel">
-                SELECTED WORK
-            </p>
-
-            <div id="featured-projects-container">
-
-                <section class="featured-project-card" id="featured-project-1">
-                    <img src="assets/images/apple-ipad.jpg" alt="" class="featured-project-image" id="featured-project-image-1">
-                    <span class="featured-project-name" id="featured-project-name-1">
-                        FEATURED PROJECT
-                    </span>
-                    <div class="featured-pillar-container" id="featured-pillar-container-1">
-                        <div class="featured-pillar anton red">D</div>
-                        <div class="featured-pillar anton orange">D</div>
-                        <div class="featured-pillar anton green">S</div>
-                        <div class="featured-pillar anton blue">H</div>
+            <div class="col-12 col-lg-4">
+                <p class="text-uppercase sub-title">The Last</p>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="media mb-4">
+                            <div class="small-images small-images-phone mr-3">
+                                <a href="#"><img class="image-size" src="assets/images/mobile-phone.jpg" alt="mobile phone"></a>
+                            </div>
+                            <div class="media-body">
+                                <h5 class="mt-0 text-uppercase">The admin bar and absolute positioning</h5>
+                            </div>
+                        </div>
+                        <div class="media mb-4">
+                            <div class="small-images small-images-head mr-3">
+                                <a href="#"><img class="image-size" src="assets/images/head.jpg" alt="head"></a>
+                            </div>
+                            <div class="media-body">
+                                <h5 class="mt-0 text-uppercase">The admin bar and absolute positioning</h5>
+                            </div>
+                        </div>
+                        <div class="media mb-4">
+                            <div class="small-images small-images-google mr-3">
+                                <a href="#"><img class="image-size" src="assets/images/ipad.jpg" alt="ipad"></a>
+                            </div>
+                            <div class="media-body">
+                                <h5 class="mt-0 text-uppercase">The admin bar and absolute positioning</h5>
+                            </div>
+                        </div>
+                        <div class="tweet">
+                            <p class="text-uppercase font-weight-bold">
+                                <a href=""><i class="fab fa-twitter"></i></a>
+                                Last Tweet
+                            </p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto dolorem doloremque officia! Hic, illo laboriosam laborum nemo pariatur perferendis quibusdam voluptatum! Aperiam autem dolorum, numquam officia quam rem suscipit voluptatem?</p>
+                        </div>
                     </div>
-                </section>
-
-                <section class="featured-project-card" id="featured-project-2">
-                    <img src="assets/images/macbook.jpg" alt="" class="featured-project-image" id="featured-project-image-2">
-                    <span class="featured-project-name" id="featured-project-name-2">
-                        FEATURED PROJECT
-                    </span>
-                    <div class="featured-pillar-container" id="featured-pillar-container-2">
-                        <div class="featured-pillar anton red">D</div>
-                        <div class="featured-pillar anton orange">D</div>
-                        <div class="featured-pillar anton green">S</div>
-                        <div class="featured-pillar anton blue">H</div>
-                    </div>
-                </section>
-
-                <section class="featured-project-card" id="featured-project-3">
-                    <img src="assets/images/man.jpg" alt="" class="featured-project-image" id="featured-project-image-3">
-                    <span class="featured-project-name" id="featured-project-name-3">
-                        FEATURED PROJECT
-                    </span>
-                    <div class="featured-pillar-container" id="featured-pillar-container-3">
-                        <div class="featured-pillar anton red">D</div>
-                        <div class="featured-pillar anton orange">D</div>
-                        <div class="featured-pillar anton green">S</div>
-                        <div class="featured-pillar anton blue">H</div>
-                    </div>
-                </section>
-
-                <section class="featured-project-card" id="featured-project-4">
-                    <img src="assets/images/security.jpg" alt="" class="featured-project-image" id="featured-project-image-4">
-                    <span class="featured-project-name" id="featured-project-name-4">
-                        FEATURED PROJECT
-                    </span>
-                    <div class="featured-pillar-container" id="featured-pillar-container-4">
-                        <div class="featured-pillar anton red">D</div>
-                        <div class="featured-pillar anton orange">D</div>
-                        <div class="featured-pillar anton green">S</div>
-                        <div class="featured-pillar anton blue">H</div>
-                    </div>
-                </section>
+                </div>
             </div>
-            <span id="feed-title" class="abel">THE LAST</span>
-            <section id="news-f-container">
-                <div id="news-feed">
-                    <img src="assets/images/mobile-phone.jpg">
-                    <span class="anton">THE ADMIN BAR AND ABSOLUTE POSITIONING</span>
-                    <img src="assets/images/head.jpg">
-                    <span class="anton">NIBBLER AWESOME WEBSITE TESTING</span>
-                    <img src="assets/images/ipad.jpg">
-                    <span class="anton">HOW TO GET GOOGLE TO LIKE YOU</span>
-                </div>
-                <div id="twitter-feed">
-                    <i class="fab fa-twitter"></i>
-                    <span>LAST TWEET</span>
-                    <p class="abel">
-                        “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                        incididunt ut labore et dolore magna aliqua.”
-                    </p>
-                </div>
-            </section>
         </div>
     </main>
-</div>
+    </div>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script></div>
 </body>
 </html>
