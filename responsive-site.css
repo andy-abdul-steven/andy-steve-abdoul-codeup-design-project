@@ -37,9 +37,6 @@ nav a {
     font-size: .75em;
     color: black;
 }
-/*a.nav{*/
-/*    color: grey;*/
-/*}*/
 
 .nav-background {
     position: absolute;
@@ -130,7 +127,6 @@ nav .nav-item {
         visibility: hidden;
     }
 }
-
 
 @media screen and (min-width: 992px) {
     .sub-title {text-align: left;}
